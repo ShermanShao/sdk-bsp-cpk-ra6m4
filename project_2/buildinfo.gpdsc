@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<package xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+  <vendor>Renesas</vendor>
+  <name>Project Content</name>
+  <description>Project content managed by the Renesas Smart Configurator</description>
+  <url/>
+  <releases>
+    <release version="1.0.0"/>
+  </releases>
+  <generators>
+    <generator id="Renesas RA Smart Configurator">
+      <project_files>
+        <file category="include" name="src/"/>
+        <file category="source" name="src/hal_entry.c"/>
+      </project_files>
+    </generator>
+  </generators>
+  <components generator="Renesas RA Smart Configurator">
+    <component Cclass="Flex Software" Cgroup="Components" Csub="ra">
+      <files>
+        <file category="include" name="ra/arm/CMSIS_5/CMSIS/Core/Include/"/>
+        <file category="include" name="ra/fsp/inc/"/>
+        <file category="include" name="ra/fsp/inc/api/"/>
+        <file category="include" name="ra/fsp/inc/instances/"/>
+        <file category="include" name="ra/fsp/src/rm_mcuboot_port/"/>
+        <file category="include" name="ra/intel/tinycrypt/lib/include/"/>
+        <file category="include" name="ra/mcu-tools/MCUboot/boot/bootutil/include/"/>
+        <file category="include" name="ra/mcu-tools/MCUboot/boot/bootutil/src/"/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/cachel1_armv7.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/cmsis_armcc.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/cmsis_armclang.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/cmsis_armclang_ltm.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/cmsis_compiler.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/cmsis_iccarm.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/cmsis_version.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/core_armv81mml.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/core_armv8mbl.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/core_armv8mml.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/core_cm0.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/core_cm0plus.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/core_cm1.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/core_cm23.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/core_cm3.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/core_cm33.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/core_cm35p.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/core_cm4.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/core_cm55.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/core_cm7.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/core_sc000.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/core_sc300.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/mpu_armv7.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/mpu_armv8.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/pmu_armv8.h" path=""/>
+        <file category="header" name="ra/arm/CMSIS_5/CMSIS/Core/Include/tz_context.h" path=""/>
+        <file category="other" name="ra/arm/CMSIS_5/LICENSE.txt"/>
+        <file category="header" name="ra/board/ra6m4_cpk/board.h" path=""/>
+        <file category="header" name="ra/board/ra6m4_cpk/board_ethernet_phy.h" path=""/>
+        <file category="source" name="ra/board/ra6m4_cpk/board_init.c"/>
+        <file category="header" name="ra/board/ra6m4_cpk/board_init.h" path=""/>
+        <file category="source" name="ra/board/ra6m4_cpk/board_leds.c"/>
+        <file category="header" name="ra/board/ra6m4_cpk/board_leds.h" path=""/>
+        <file category="header" name="ra/fsp/inc/api/bsp_api.h" path=""/>
+        <file category="header" name="ra/fsp/inc/api/r_cgc_api.h" path=""/>
+        <file category="header" name="ra/fsp/inc/api/r_external_irq_api.h" path=""/>
+        <file category="header" name="ra/fsp/inc/api/r_flash_api.h" path=""/>
+        <file category="header" name="ra/fsp/inc/api/r_ioport_api.h" path=""/>
+        <file category="header" name="ra/fsp/inc/api/r_transfer_api.h" path=""/>
+        <file category="header" name="ra/fsp/inc/api/r_uart_api.h" path=""/>
+        <file category="header" name="ra/fsp/inc/fsp_common_api.h" path=""/>
+        <file category="header" name="ra/fsp/inc/fsp_features.h" path=""/>
+        <file category="header" name="ra/fsp/inc/fsp_version.h" path=""/>
+        <file category="header" name="ra/fsp/inc/instances/rm_mcuboot_port.h" path=""/>
+        <file category="header" name="ra/fsp/inc/instances/r_flash_hp.h" path=""/>
+        <file category="header" name="ra/fsp/inc/instances/r_icu.h" path=""/>
+        <file category="header" name="ra/fsp/inc/instances/r_ioport.h" path=""/>
+        <file category="header" name="ra/fsp/inc/instances/r_sci_uart.h" path=""/>
+        <file category="header" name="ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/base_addresses.h" path=""/>
+        <file category="header" name="ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/renesas.h" path=""/>
+        <file category="header" name="ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/system.h" path=""/>
+        <file category="source" name="ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.c"/>
+        <file category="other" name="ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o"/>
+        <file category="source" name="ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.c"/>
+        <file category="other" name="ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o"/>
+        <file category="header" name="ra/fsp/src/bsp/mcu/all/bsp_arm_exceptions.h" path=""/>
+        <file category="source" name="ra/fsp/src/bsp/mcu/all/bsp_clocks.c"/>
+        <file category="header" name="ra/fsp/src/bsp/mcu/all/bsp_clocks.h" path=""/>
+        <file category="other" name="ra/fsp/src/bsp/mcu/all/bsp_clocks.o"/>
+        <file category="source" name="ra/fsp/src/bsp/mcu/all/bsp_common.c"/>
+        <file category="header" name="ra/fsp/src/bsp/mcu/all/bsp_common.h" path=""/>
+        <file category="other" name="ra/fsp/src/bsp/mcu/all/bsp_common.o"/>
+        <file category="header" name="ra/fsp/src/bsp/mcu/all/bsp_compiler_support.h" path=""/>
+        <file category="source" name="ra/fsp/src/bsp/mcu/all/bsp_delay.c"/>
+        <file category="header" name="ra/fsp/src/bsp/mcu/all/bsp_delay.h" path=""/>
+        <file category="other" name="ra/fsp/src/bsp/mcu/all/bsp_delay.o"/>
+        <file category="source" name="ra/fsp/src/bsp/mcu/all/bsp_group_irq.c"/>
+        <file category="header" name="ra/fsp/src/bsp/mcu/all/bsp_group_irq.h" path=""/>
+        <file category="other" name="ra/fsp/src/bsp/mcu/all/bsp_group_irq.o"/>
+        <file category="source" name="ra/fsp/src/bsp/mcu/all/bsp_guard.c"/>
+        <file category="header" name="ra/fsp/src/bsp/mcu/all/bsp_guard.h" path=""/>
+        <file category="other" name="ra/fsp/src/bsp/mcu/all/bsp_guard.o"/>
+        <file category="source" name="ra/fsp/src/bsp/mcu/all/bsp_io.c"/>
+        <file category="header" name="ra/fsp/src/bsp/mcu/all/bsp_io.h" path=""/>
+        <file category="other" name="ra/fsp/src/bsp/mcu/all/bsp_io.o"/>
+        <file category="source" name="ra/fsp/src/bsp/mcu/all/bsp_irq.c"/>
+        <file category="header" name="ra/fsp/src/bsp/mcu/all/bsp_irq.h" path=""/>
+        <file category="other" name="ra/fsp/src/bsp/mcu/all/bsp_irq.o"/>
+        <file category="header" name="ra/fsp/src/bsp/mcu/all/bsp_mcu_api.h" path=""/>
+        <file category="header" name="ra/fsp/src/bsp/mcu/all/bsp_module_stop.h" path=""/>
+        <file category="source" name="ra/fsp/src/bsp/mcu/all/bsp_register_protection.c"/>
+        <file category="header" name="ra/fsp/src/bsp/mcu/all/bsp_register_protection.h" path=""/>
+        <file category="other" name="ra/fsp/src/bsp/mcu/all/bsp_register_protection.o"/>
+        <file category="source" name="ra/fsp/src/bsp/mcu/all/bsp_rom_registers.c"/>
+        <file category="other" name="ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o"/>
+        <file category="source" name="ra/fsp/src/bsp/mcu/all/bsp_sbrk.c"/>
+        <file category="other" name="ra/fsp/src/bsp/mcu/all/bsp_sbrk.o"/>
+        <file category="source" name="ra/fsp/src/bsp/mcu/all/bsp_security.c"/>
+        <file category="header" name="ra/fsp/src/bsp/mcu/all/bsp_security.h" path=""/>
+        <file category="other" name="ra/fsp/src/bsp/mcu/all/bsp_security.o"/>
+        <file category="header" name="ra/fsp/src/bsp/mcu/all/bsp_tfu.h" path=""/>
+        <file category="header" name="ra/fsp/src/bsp/mcu/ra6m4/bsp_elc.h" path=""/>
+        <file category="header" name="ra/fsp/src/bsp/mcu/ra6m4/bsp_feature.h" path=""/>
+        <file category="header" name="ra/fsp/src/bsp/mcu/ra6m4/bsp_mcu_info.h" path=""/>
+        <file category="header" name="ra/fsp/src/rm_mcuboot_port/crypto/sce9_ecdsa_p256.h" path=""/>
+        <file category="source" name="ra/fsp/src/rm_mcuboot_port/crypto/sce9_image_ec256.c"/>
+        <file category="source" name="ra/fsp/src/rm_mcuboot_port/crypto/sce9_keys.c"/>
+        <file category="header" name="ra/fsp/src/rm_mcuboot_port/crypto/sce9_keys.h" path=""/>
+        <file category="header" name="ra/fsp/src/rm_mcuboot_port/crypto/sce9_sha256.h" path=""/>
+        <file category="header" name="ra/fsp/src/rm_mcuboot_port/flash_map/flash_map.h" path=""/>
+        <file category="source" name="ra/fsp/src/rm_mcuboot_port/flash_map.c"/>
+        <file category="other" name="ra/fsp/src/rm_mcuboot_port/flash_map.o"/>
+        <file category="header" name="ra/fsp/src/rm_mcuboot_port/flash_map_backend/flash_map_backend.h" path=""/>
+        <file category="header" name="ra/fsp/src/rm_mcuboot_port/os/os_malloc.h" path=""/>
+        <file category="source" name="ra/fsp/src/rm_mcuboot_port/rm_mcuboot_port.c"/>
+        <file category="other" name="ra/fsp/src/rm_mcuboot_port/rm_mcuboot_port.o"/>
+        <file category="other" name="ra/fsp/src/rm_mcuboot_port/rm_mcuboot_port_sign.py"/>
+        <file category="source" name="ra/fsp/src/r_flash_hp/r_flash_hp.c"/>
+        <file category="other" name="ra/fsp/src/r_flash_hp/r_flash_hp.o"/>
+        <file category="source" name="ra/fsp/src/r_icu/r_icu.c"/>
+        <file category="other" name="ra/fsp/src/r_icu/r_icu.o"/>
+        <file category="source" name="ra/fsp/src/r_ioport/r_ioport.c"/>
+        <file category="other" name="ra/fsp/src/r_ioport/r_ioport.o"/>
+        <file category="source" name="ra/fsp/src/r_sci_uart/r_sci_uart.c"/>
+        <file category="other" name="ra/fsp/src/r_sci_uart/r_sci_uart.o"/>
+        <file category="header" name="ra/intel/tinycrypt/lib/include/tinycrypt/aes.h" path=""/>
+        <file category="header" name="ra/intel/tinycrypt/lib/include/tinycrypt/cbc_mode.h" path=""/>
+        <file category="header" name="ra/intel/tinycrypt/lib/include/tinycrypt/ccm_mode.h" path=""/>
+        <file category="header" name="ra/intel/tinycrypt/lib/include/tinycrypt/cmac_mode.h" path=""/>
+        <file category="header" name="ra/intel/tinycrypt/lib/include/tinycrypt/constants.h" path=""/>
+        <file category="header" name="ra/intel/tinycrypt/lib/include/tinycrypt/ctr_mode.h" path=""/>
+        <file category="header" name="ra/intel/tinycrypt/lib/include/tinycrypt/ctr_prng.h" path=""/>
+        <file category="header" name="ra/intel/tinycrypt/lib/include/tinycrypt/ecc.h" path=""/>
+        <file category="header" name="ra/intel/tinycrypt/lib/include/tinycrypt/ecc_dh.h" path=""/>
+        <file category="header" name="ra/intel/tinycrypt/lib/include/tinycrypt/ecc_dsa.h" path=""/>
+        <file category="header" name="ra/intel/tinycrypt/lib/include/tinycrypt/ecc_platform_specific.h" path=""/>
+        <file category="header" name="ra/intel/tinycrypt/lib/include/tinycrypt/hmac.h" path=""/>
+        <file category="header" name="ra/intel/tinycrypt/lib/include/tinycrypt/hmac_prng.h" path=""/>
+        <file category="header" name="ra/intel/tinycrypt/lib/include/tinycrypt/sha256.h" path=""/>
+        <file category="header" name="ra/intel/tinycrypt/lib/include/tinycrypt/utils.h" path=""/>
+        <file category="other" name="ra/intel/tinycrypt/lib/Makefile"/>
+        <file category="source" name="ra/intel/tinycrypt/lib/source/aes_decrypt.c"/>
+        <file category="other" name="ra/intel/tinycrypt/lib/source/aes_decrypt.o"/>
+        <file category="source" name="ra/intel/tinycrypt/lib/source/aes_encrypt.c"/>
+        <file category="other" name="ra/intel/tinycrypt/lib/source/aes_encrypt.o"/>
+        <file category="source" name="ra/intel/tinycrypt/lib/source/cbc_mode.c"/>
+        <file category="other" name="ra/intel/tinycrypt/lib/source/cbc_mode.o"/>
+        <file category="source" name="ra/intel/tinycrypt/lib/source/ccm_mode.c"/>
+        <file category="other" name="ra/intel/tinycrypt/lib/source/ccm_mode.o"/>
+        <file category="source" name="ra/intel/tinycrypt/lib/source/cmac_mode.c"/>
+        <file category="other" name="ra/intel/tinycrypt/lib/source/cmac_mode.o"/>
+        <file category="source" name="ra/intel/tinycrypt/lib/source/ctr_mode.c"/>
+        <file category="other" name="ra/intel/tinycrypt/lib/source/ctr_mode.o"/>
+        <file category="source" name="ra/intel/tinycrypt/lib/source/ctr_prng.c"/>
+        <file category="other" name="ra/intel/tinycrypt/lib/source/ctr_prng.o"/>
+        <file category="source" name="ra/intel/tinycrypt/lib/source/ecc.c"/>
+        <file category="other" name="ra/intel/tinycrypt/lib/source/ecc.o"/>
+        <file category="source" name="ra/intel/tinycrypt/lib/source/ecc_dh.c"/>
+        <file category="other" name="ra/intel/tinycrypt/lib/source/ecc_dh.o"/>
+        <file category="source" name="ra/intel/tinycrypt/lib/source/ecc_dsa.c"/>
+        <file category="other" name="ra/intel/tinycrypt/lib/source/ecc_dsa.o"/>
+        <file category="source" name="ra/intel/tinycrypt/lib/source/ecc_platform_specific.c"/>
+        <file category="other" name="ra/intel/tinycrypt/lib/source/ecc_platform_specific.o"/>
+        <file category="source" name="ra/intel/tinycrypt/lib/source/hmac.c"/>
+        <file category="other" name="ra/intel/tinycrypt/lib/source/hmac.o"/>
+        <file category="source" name="ra/intel/tinycrypt/lib/source/hmac_prng.c"/>
+        <file category="other" name="ra/intel/tinycrypt/lib/source/hmac_prng.o"/>
+        <file category="source" name="ra/intel/tinycrypt/lib/source/sha256.c"/>
+        <file category="other" name="ra/intel/tinycrypt/lib/source/sha256.o"/>
+        <file category="source" name="ra/intel/tinycrypt/lib/source/utils.c"/>
+        <file category="other" name="ra/intel/tinycrypt/lib/source/utils.o"/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/bench.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/bootutil.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/bootutil_log.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/bootutil_public.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/bootutil_test.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/boot_hooks.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/boot_public_hooks.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/boot_record.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/boot_status.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/caps.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/crypto/aes_ctr.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/crypto/aes_kw.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/crypto/common.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/crypto/ecdh_p256.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/crypto/ecdh_x25519.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/crypto/ecdsa_p256.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/crypto/hmac_sha256.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/crypto/sha256.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/enc_key.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/enc_key_public.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/fault_injection_hardening.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/fault_injection_hardening_delay_rng.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/ignore.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/image.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/ramload.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/security_cnt.h" path=""/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/include/bootutil/sign_key.h" path=""/>
+        <file category="source" name="ra/mcu-tools/MCUboot/boot/bootutil/src/bootutil_misc.c"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/boot/bootutil/src/bootutil_misc.o"/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/src/bootutil_priv.h" path=""/>
+        <file category="source" name="ra/mcu-tools/MCUboot/boot/bootutil/src/bootutil_public.c"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/boot/bootutil/src/bootutil_public.o"/>
+        <file category="source" name="ra/mcu-tools/MCUboot/boot/bootutil/src/boot_record.c"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/boot/bootutil/src/boot_record.o"/>
+        <file category="source" name="ra/mcu-tools/MCUboot/boot/bootutil/src/caps.c"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/boot/bootutil/src/caps.o"/>
+        <file category="source" name="ra/mcu-tools/MCUboot/boot/bootutil/src/encrypted.c"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/boot/bootutil/src/encrypted.o"/>
+        <file category="source" name="ra/mcu-tools/MCUboot/boot/bootutil/src/fault_injection_hardening.c"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/boot/bootutil/src/fault_injection_hardening.o"/>
+        <file category="source" name="ra/mcu-tools/MCUboot/boot/bootutil/src/fault_injection_hardening_delay_rng_mbedtls.c"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/boot/bootutil/src/fault_injection_hardening_delay_rng_mbedtls.o"/>
+        <file category="source" name="ra/mcu-tools/MCUboot/boot/bootutil/src/image_ec.c"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/boot/bootutil/src/image_ec.o"/>
+        <file category="source" name="ra/mcu-tools/MCUboot/boot/bootutil/src/image_ec256.c"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/boot/bootutil/src/image_ec256.o"/>
+        <file category="source" name="ra/mcu-tools/MCUboot/boot/bootutil/src/image_ed25519.c"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/boot/bootutil/src/image_ed25519.o"/>
+        <file category="source" name="ra/mcu-tools/MCUboot/boot/bootutil/src/image_rsa.c"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/boot/bootutil/src/image_rsa.o"/>
+        <file category="source" name="ra/mcu-tools/MCUboot/boot/bootutil/src/image_validate.c"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/boot/bootutil/src/image_validate.o"/>
+        <file category="source" name="ra/mcu-tools/MCUboot/boot/bootutil/src/loader.c"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/boot/bootutil/src/loader.o"/>
+        <file category="source" name="ra/mcu-tools/MCUboot/boot/bootutil/src/swap_misc.c"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/boot/bootutil/src/swap_misc.o"/>
+        <file category="source" name="ra/mcu-tools/MCUboot/boot/bootutil/src/swap_move.c"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/boot/bootutil/src/swap_move.o"/>
+        <file category="header" name="ra/mcu-tools/MCUboot/boot/bootutil/src/swap_priv.h" path=""/>
+        <file category="source" name="ra/mcu-tools/MCUboot/boot/bootutil/src/swap_scratch.c"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/boot/bootutil/src/swap_scratch.o"/>
+        <file category="source" name="ra/mcu-tools/MCUboot/boot/bootutil/src/tlv.c"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/boot/bootutil/src/tlv.o"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/assemble.py"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/flash.sh"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/gdb-boot.sh"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/imgtool/boot_record.py"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/imgtool/image.py"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/imgtool/keys/ecdsa.py"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/imgtool/keys/ecdsa_test.py"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/imgtool/keys/ed25519.py"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/imgtool/keys/ed25519_test.py"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/imgtool/keys/general.py"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/imgtool/keys/rsa.py"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/imgtool/keys/rsa_test.py"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/imgtool/keys/x25519.py"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/imgtool/keys/__init__.py"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/imgtool/main.py"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/imgtool/version.py"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/imgtool/__init__.py"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/imgtool.nix"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/imgtool.py"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/jgdb.sh"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/jl.sh"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/mcubin.bt"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/requirements.txt"/>
+        <file category="other" name="ra/mcu-tools/MCUboot/scripts/setup.py"/>
+        <file category="other" name="ra/SConscript"/>
+      </files>
+    </component>
+    <component Cclass="Flex Software" Cgroup="Build Configuration">
+      <files>
+        <file category="include" name="ra_cfg/fsp_cfg/"/>
+        <file category="include" name="ra_cfg/fsp_cfg/bsp/"/>
+        <file category="include" name="ra_cfg/mcu-tools/include/"/>
+        <file category="include" name="ra_cfg/mcu-tools/include/mcuboot_config/"/>
+        <file category="include" name="ra_cfg/mcu-tools/include/sysflash/"/>
+        <file category="header" name="ra_cfg/fsp_cfg/bsp/board_cfg.h" path=""/>
+        <file category="header" name="ra_cfg/fsp_cfg/bsp/bsp_cfg.h" path=""/>
+        <file category="header" name="ra_cfg/fsp_cfg/bsp/bsp_mcu_device_cfg.h" path=""/>
+        <file category="header" name="ra_cfg/fsp_cfg/bsp/bsp_mcu_device_pn_cfg.h" path=""/>
+        <file category="header" name="ra_cfg/fsp_cfg/bsp/bsp_mcu_family_cfg.h" path=""/>
+        <file category="header" name="ra_cfg/fsp_cfg/bsp/bsp_pin_cfg.h" path=""/>
+        <file category="header" name="ra_cfg/fsp_cfg/rm_mcuboot_port_cfg.h" path=""/>
+        <file category="header" name="ra_cfg/fsp_cfg/r_flash_hp_cfg.h" path=""/>
+        <file category="header" name="ra_cfg/fsp_cfg/r_icu_cfg.h" path=""/>
+        <file category="header" name="ra_cfg/fsp_cfg/r_ioport_cfg.h" path=""/>
+        <file category="header" name="ra_cfg/fsp_cfg/r_sci_uart_cfg.h" path=""/>
+        <file category="header" name="ra_cfg/mcu-tools/include/mcuboot_config/mcuboot_config.h" path=""/>
+        <file category="header" name="ra_cfg/mcu-tools/include/mcuboot_config/mcuboot_logging.h" path=""/>
+        <file category="header" name="ra_cfg/mcu-tools/include/sysflash/sysflash.h" path=""/>
+        <file category="other" name="ra_cfg/SConscript"/>
+      </files>
+    </component>
+    <component Cclass="Flex Software" Cgroup="Generated Data">
+      <files>
+        <file category="include" name="ra_gen/"/>
+        <file category="header" name="ra_gen/bsp_clock_cfg.h" path=""/>
+        <file category="source" name="ra_gen/common_data.c"/>
+        <file category="header" name="ra_gen/common_data.h" path=""/>
+        <file category="source" name="ra_gen/hal_data.c"/>
+        <file category="header" name="ra_gen/hal_data.h" path=""/>
+        <file category="source" name="ra_gen/main.c"/>
+        <file category="source" name="ra_gen/pin_data.c"/>
+        <file category="other" name="ra_gen/SConscript"/>
+        <file category="source" name="ra_gen/vector_data.c"/>
+        <file category="header" name="ra_gen/vector_data.h" path=""/>
+      </files>
+    </component>
+    <component Cclass="Flex Software" Cgroup="Linker Script">
+      <files>
+        <file category="linkerScript" name="script/fsp.scat"/>
+        <file category="other" name="script/ac6/fsp_keep.via"/>
+      </files>
+    </component>
+  </components>
+</package>
